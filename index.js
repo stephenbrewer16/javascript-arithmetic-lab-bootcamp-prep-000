@@ -19,3 +19,6 @@ function dec(a) {
 function makeInt(a) {
   return parseInt(a, 10)
 }
+function preserveDecimal(a) {
+  return parseFloat(a, 'rabble')
+}
